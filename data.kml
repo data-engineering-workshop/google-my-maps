@@ -3,6 +3,42 @@
   <Document>
     <name>FOSS4G NA 2024</name>
     <description>Points of Interest for Free and Open Source for Geospatial Conference 2024 in St. Louis, Missouri.</description>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1899-0288D1-nodesc-normal">
       <IconStyle>
         <color>ffd18802</color>
@@ -58,7 +94,8 @@
       </Placemark>
       <Placemark>
         <name>Hyatt Regency St. Louis At The Arch</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <description>Main location for FOSS4G NA.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
             -90.1877697,38.6262038,0
@@ -67,7 +104,8 @@
       </Placemark>
       <Placemark>
         <name>Broadway Oyster Bar</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <description>Cool place</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
             -90.1924284,38.6188501,0
