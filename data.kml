@@ -39,53 +39,29 @@
         <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Folder>
       <name>Points of Interest</name>
       <Placemark>
         <name>The Gateway Arch</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <description><![CDATA[description: <br>council: <br>rep_counci: <br>shape_leng: <br>shape_area: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="council">
+            <value/>
+          </Data>
+          <Data name="rep_counci">
+            <value/>
+          </Data>
+          <Data name="shape_leng">
+            <value/>
+          </Data>
+          <Data name="shape_area">
+            <value/>
+          </Data>
+        </ExtendedData>
         <Point>
           <coordinates>
             -90.1867504,38.6251269,0
@@ -94,8 +70,25 @@
       </Placemark>
       <Placemark>
         <name>Hyatt Regency St. Louis At The Arch</name>
-        <description>Main location for FOSS4G NA.</description>
+        <description><![CDATA[description: Main location for FOSS4G NA.<br>council: <br>rep_counci: <br>shape_leng: <br>shape_area: ]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Main location for FOSS4G NA.</value>
+          </Data>
+          <Data name="council">
+            <value/>
+          </Data>
+          <Data name="rep_counci">
+            <value/>
+          </Data>
+          <Data name="shape_leng">
+            <value/>
+          </Data>
+          <Data name="shape_area">
+            <value/>
+          </Data>
+        </ExtendedData>
         <Point>
           <coordinates>
             -90.1877697,38.6262038,0
@@ -104,8 +97,25 @@
       </Placemark>
       <Placemark>
         <name>Broadway Oyster Bar</name>
-        <description>Cool place</description>
+        <description><![CDATA[description: Cool place<br>council: <br>rep_counci: <br>shape_leng: <br>shape_area: ]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Cool place</value>
+          </Data>
+          <Data name="council">
+            <value/>
+          </Data>
+          <Data name="rep_counci">
+            <value/>
+          </Data>
+          <Data name="shape_leng">
+            <value/>
+          </Data>
+          <Data name="shape_area">
+            <value/>
+          </Data>
+        </ExtendedData>
         <Point>
           <coordinates>
             -90.1924284,38.6188501,0
